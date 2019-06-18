@@ -57,6 +57,10 @@ the number of workers:
 However, on my computer, it only produces about 1500 workers, because
 of system limitations, no matter how high I configure this parameter.
 
+You can scan non default ports using the *-p* (--port) flag on the command-line.
+
+    rdpscan -p 10000 10.0.0.1
+
 You can increase the speed even more by using this in conjunction
 with `masscan`, described in the second below.
 
